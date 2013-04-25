@@ -1,11 +1,11 @@
 define(function () {
     return {
         title : {
-            required : true,
-            minlength : 5
+            required : true
         },
         content : {
-            maxlength : 2000
+            minlength : 5,
+            maxlength : 20
         }
     }
 });

@@ -5,6 +5,24 @@
     <title>create blog</title>
 </head>
 <body>
+<h1>This is blogs create page</h1>
 
+<form id="form">
+    <div>
+        <input type="text" name="title"/>
+    </div>
+    <div>
+        <textarea name="content" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="提交"/>
+    </div>
+</form>
+
+<script src="/js/sea-modules/seajs/2.0.0/sea.js"></script>
+<script src="/js/seajs-config.js"></script>
+<script>
+    seajs.use((seajs.production ? '' : '/js/') + 'example/blogs/new');
+</script>
 </body>
 </html>

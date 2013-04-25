@@ -1,0 +1,19 @@
+{
+    "spm" : {
+        "output" : {
+            "relative" : [
+                "blogs/new.js",
+                "users/index.js"
+            ],
+            "all" : [
+                "base/handlebars.js"
+            ]
+        },
+        "alias" : {
+            "$" : "gallery/jquery/1.9.1/jquery",
+            "_" : "gallery/underscore/1.4.4/underscore",
+            "handlebars" : "gallery/handlebars/1.0.1/handlebars",
+            "example-handlebars" : "example/base/handlebars"
+        }
+    }
+}

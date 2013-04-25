@@ -1,3 +1,8 @@
-<li>
-
-</li>
+<table>
+    {{#each this}}
+    <tr class="{{stripe @index}}">
+        <td>{{name}}</td>
+        <td>{{account}}</td>
+    </tr>
+    {{/each}}
+</table>

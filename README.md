@@ -7,8 +7,8 @@
 ## Getting Started
 
 这是一个简单的示例，用来演示如何使用 spm-chaos-build
-首先请先确保你已经安装了最新的 NodeJS & git
-然后安装 Spm & spm-chaos-build
+
+首先请先确保你已经安装了最新的 NodeJS & git，然后安装 Spm & spm-chaos-build
 
     $ npm install spm -g
     $ npm install spm-chaos-build -g

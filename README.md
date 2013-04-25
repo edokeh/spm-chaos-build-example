@@ -19,4 +19,5 @@
     $ spm chaos-build example -C seajs-config.js
 
 完成后会在 js/sea-modules 目录下生成 example 子目录，里面是最终代码
+
 这时候访问 HTML 页面时请求的 JS 文件都是打包过后的（最好使用 HTTP 方式访问）

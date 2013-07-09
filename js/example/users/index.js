@@ -2,7 +2,7 @@ define(function (require) {
     var _ = require('_');
     var $ = require('$');
     var util = require('../base/util');
-    var template = require('./user.html');
+    var template = require('./user.handlebars');
     var Handlebars = require('example-handlebars');
     require('./user.css');
 
@@ -17,6 +17,5 @@ define(function (require) {
         return user;
     });
 
-    var tempFunc = Handlebars.compile(template);
-    $('body').append(tempFunc(users));
+    $('body').append(template(users));
 });
